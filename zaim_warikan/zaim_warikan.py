@@ -143,7 +143,7 @@ def zaim_warikan_scrape(year: int, month: int, diff_only: bool = False) -> str:
         result_txt += f"{PERSON_B}が{PERSON_A}に **{sub}** 円払う"
     else:
         result_txt += f"{PERSON_A}が{PERSON_B}に **{sub}** 円払う"
-    crawler.close()
+    crawler.quit()
     return result_txt
 
 
