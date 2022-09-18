@@ -1,0 +1,12 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+pyzaim = {git = "https://github.com/kefi550/pyzaim.git", ref = "develop"}
+
+[dev-packages]
+
+[requires]
+python_version = "3.10"
