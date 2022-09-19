@@ -107,6 +107,7 @@ def _entry_text(dt: date | str, amount: int, genre: str, category: str, comment:
 
 
 def zaim_warikan_scrape(year: int, month: int, diff_only: bool = False) -> str:
+    # https://github.com/SeleniumHQ/docker-selenium/issues/1605 によりdocker-seleniumが300秒でsessionを殺すので、都度crawler(driver)を作成する
     crawler = ZaimCrawler(ZAIM_USER_ID, ZAIM_USER_PASSWORD, driver_path='remote', headless=True, poor=True)
     result = {
         PERSON_A: 0,
