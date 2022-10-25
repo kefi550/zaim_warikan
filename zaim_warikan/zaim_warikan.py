@@ -141,9 +141,9 @@ def zaim_warikan_scrape(year: int, month: int, diff_only: bool = False) -> str:
     if sub == 0:
         result_txt += "差分はありません"
     elif result[PERSON_A] > result[PERSON_B]:
-        result_txt += f"{PERSON_B}が{PERSON_A}に **{sub}** 円払う"
+        result_txt += f"{PERSON_A}が{PERSON_B}より **{sub}** 円多く出した"
     else:
-        result_txt += f"{PERSON_A}が{PERSON_B}に **{sub}** 円払う"
+        result_txt += f"{PERSON_B}が{PERSON_A}に **{sub}** 円多く出した"
     # self.driverのデストラクタに任せる
     # self.driver.quit()
     return result_txt
