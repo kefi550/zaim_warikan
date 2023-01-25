@@ -143,7 +143,7 @@ def zaim_warikan_scrape(year: int, month: int, diff_only: bool = False) -> str:
     elif result[PERSON_A] > result[PERSON_B]:
         result_txt += f"{PERSON_A}が{PERSON_B}より **{sub}** 円多く出した"
     else:
-        result_txt += f"{PERSON_B}が{PERSON_A}に **{sub}** 円多く出した"
+        result_txt += f"{PERSON_B}が{PERSON_A}より **{sub}** 円多く出した"
     # self.driverのデストラクタに任せる
     # self.driver.quit()
     return result_txt
@@ -151,4 +151,4 @@ def zaim_warikan_scrape(year: int, month: int, diff_only: bool = False) -> str:
 
 if __name__ == '__main__':
     # print(zaim_warikan(2022, 9, 1))
-    print(zaim_warikan_scrape(2022, 9, 1))
+    print(zaim_warikan_scrape(2023, 1, 23))
