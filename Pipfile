@@ -4,7 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-pyzaim = {git = "https://github.com/kefi550/pyzaim.git", ref = "change_zaim_login_url"}
+pyzaim = {git = "https://github.com/kefi550/pyzaim.git", ref = "feature/driver_quit"}
 
 [dev-packages]
 

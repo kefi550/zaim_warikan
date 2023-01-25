@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "f383e65674e6d7ebcc714646982d107772afa569d0fb2dbdb09cfdd27cf8bfb4"
+            "sha256": "707ff38d02e2092bf5403d0162b8c6f3601dec2ce9e16a0da56b95817611a16a"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -135,7 +135,7 @@
         },
         "pyzaim": {
             "git": "https://github.com/kefi550/pyzaim.git",
-            "ref": "28abfe6911985224d4a6bc57028e7750a376ca98"
+            "ref": "52e10dcde6076d81e4add0febe9710dd2c8aabfa"
         },
         "requests": {
             "hashes": [
